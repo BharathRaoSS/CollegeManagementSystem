@@ -10,13 +10,12 @@
                 <nav class="navbar navbar-inverse navbar-fixed-top">
                   <div class="container-fluid">
                     <div class="navbar-header">
-                      <a class="navbar-brand">College Management System</a>
+                      <a class="navbar-brand">College Management System</a>&nbsp;&nbsp;
                     </div>
                     <ul class="nav navbar-nav">
-                      <li><a href="/">Home</a></li>
-                      <li><a href="/login">Login</a></li>
+                      <li><a href="/">Home</a></li>&nbsp;
+                      <li><a href="/login">Login</a></li>&nbsp;
                       <li><a href="/sign_up">Signup</a></li>
-                      <li><a href="">About</a></li>
                     </ul>
                   </div>
                 </nav>

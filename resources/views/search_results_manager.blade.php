@@ -10,7 +10,7 @@
 </head>
 <body style="text-align: center;">
 	<h4>Search Results</h4>
-					@if(!$student_details->isEmpty())
+					@if(!$student_details->isEmpty())   {{--Checking whether there is a record --}}
 	<div class="container-fluid">
 		<div class="col-md-12"><br><br>
 			<form method='GET' action='/search' class='navbar-form navbar-center' role='search'>
@@ -35,7 +35,7 @@
 					<th>Description</th>
 				</thead>
 				<tbody>
-					@foreach($student_details as $student_data)
+					@foreach($student_details as $student_data)    {{--Displaying Records--}}
 					<tr>
 						<td>{{$count++}}</td>
 						<td>{{$student_data->name}}</td>
@@ -48,7 +48,7 @@
 					</tr>				
 					@endforeach	
 					@else
-						<h4>No Records Found!</h4>
+						<h4>No Records Found!</h4>   {{--Displaying no records if not found--}}
 					@endif
 				</tbody>
 			</table>

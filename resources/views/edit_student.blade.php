@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        function ageCalculate(){
+    <script type="text/javascript">     
+        function ageCalculate(){  //Logic for Calculating age based on given D.O.B
                var birthDate =document.getElementById('dob').value;
                var mdate = birthDate.toString();
                var yearThen = parseInt(mdate.substring(0,4), 10);
@@ -23,8 +23,8 @@
         }  
     </script>
 </head>
-<body>
-    <form action="{{url('/edit_student/')}}/{{$student_details->id}}" onsubmit="return ageCalculate()" method="POST" enctype="multipart/form-data" >
+<body>   
+    <form action="{{url('/edit_student/')}}/{{$student_details->id}}" onsubmit="return ageCalculate()"  method="POST" enctype="multipart/form-data" > {{--Calculating The Age in Background--}}
         {{csrf_field()}}
 			<h3>Edit the Student Details</h3>
 			<div class="container form-signup">
