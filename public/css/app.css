@@ -1,0 +1,109 @@
+
+	h3{ 
+	  border:0 solid #fff; 
+	  border-bottom-width:2px; //creates a line after heading 
+	  padding-bottom:10px;
+	  text-align: center;
+	}
+
+    .form-signup{
+ 		background-color: #EDEDED;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-radius: 5px;
+		border-color:#d2d2d2;
+		border-width: 5px;
+		margin-bottom: 7%;
+		box-shadow:0 1px 0 #cfcfcf;
+
+	}
+
+    .fixed-footer{
+        bottom: 0;
+        text-align: center;
+    }
+
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+
+    .container{
+    	margin-top: 5%;
+    	max-width: 75%;
+    }
+
+    .active {
+	 	color: white;
+	}
+
+	.border{
+		border: 3px solid #666;
+		padding: 25px;	
+	}
+
+	.radio-inline{
+		height: 20px;
+		width: 20px;
+	}
+	.alert{
+		color:red;
+	}
+   /* .sidenav {
+	    height: 100%;
+	    width: 200px;
+	    position: fixed;
+	    left: 0;
+	    background-color: #111;
+	    overflow-x: hidden;
+	    padding-top: 5%;
+	}
+
+	.sidenav a {
+	    padding: 6px 6px 6px 32px;
+	    text-decoration: none;
+	    font-size: 25px;
+	    color: #818181;
+	    display: block;
+	}
+
+	.sidenav a:hover {
+	    color: #f1f1f1;
+	}
+
+	.main {
+	    margin-left: 200px;
+	}
+
+
+	@media screen and (max-height: 450px) {
+	  .sidenav {padding-top: 15px;}
+	  .sidenav a {font-size: 18px;}
+	}
+
+	@media screen and (max-width: 600px) {
+  	  .topnav a:not(:first-child) {display: none;}
+	  .topnav a.icon {
+	    float: right;
+	    display: block;
+	  }
+	}
+
+	@media screen and (max-width: 600px) {
+	  .topnav.responsive {position: relative;}
+	  .topnav.responsive .icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	  }
+	}
+
+    .fixed-header{
+        top: 0;
+        z-index: 1;
+    }*/
